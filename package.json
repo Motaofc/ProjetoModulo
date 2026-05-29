@@ -1,0 +1,12 @@
+{
+  "name": "hair-try-on",
+  "version": "1.0.0",
+  "description": "Aplicação virtual para experimentar diferentes estilos de cabelo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
