@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M40,105 Q25,75 50,40 Q75,10 100,10 Q125,10 150,40 Q175,75 160,105 Q165,80 155,50 Q140,15 100,15 Q60,15 45,50 Q35,80 40,105 Z" fill="#5c3a1e" opacity="0.85"/>
+  <path d="M40,105 Q35,140 38,170 Q42,195 50,185 Q47,160 45,130 Z" fill="#4a2e15" opacity="0.85"/>
+  <path d="M160,105 Q165,140 162,170 Q158,195 150,185 Q153,160 155,130 Z" fill="#4a2e15" opacity="0.85"/>
+  <path d="M50,60 Q55,45 65,35" stroke="#6b4423" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M150,60 Q145,45 135,35" stroke="#6b4423" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M45,80 Q50,65 58,55" stroke="#6b4423" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M155,80 Q150,65 142,55" stroke="#6b4423" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
