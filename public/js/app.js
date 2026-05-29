@@ -28,6 +28,9 @@ const femaleHairstyles = [
 ];
 
 async function init() {
+    // Renderizar os grids de penteados imediatamente (não dependem da webcam)
+    renderHairstyleGrids();
+
     try {
         stream = await navigator.mediaDevices.getUserMedia({
             video: { width: 640, height: 480, facingMode: 'user' }
@@ -46,8 +49,8 @@ async function init() {
         renderHairstyleGrids();
         startFaceDetection();
     } catch (err) {
-        console.error('Erro ao aceder à webcam:', err);
-        alert('Não foi possível aceder à webcam. Por favor, permita o acesso à câmara.');
+        console.error('Erro ao iniciar a aplicação:', err);
+        alert('Erro ao iniciar a aplicação. Verifique a consola do browser para mais detalhes.');
     }
 }
 
